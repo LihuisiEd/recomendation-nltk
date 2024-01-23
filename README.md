@@ -15,6 +15,7 @@ https://hub.docker.com/repository/docker/eddlihuisi/recomendation-nltk-api/gener
 ```
 docker pull eddlihuisi/recomendation-nltk-api
 ```
+## Uso
 Primero debes cargar los datos en la ruta
 ```
 /load_data

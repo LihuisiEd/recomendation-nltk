@@ -6,11 +6,12 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import ast
-import time
+from flask_cors import CORS
 
 nltk.download('punkt')
 
 app = Flask(__name__)
+CORS(app)
 
 app.config['DATA_LOADED'] = False
 app.config['DF'] = None
